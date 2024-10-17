@@ -1,0 +1,72 @@
+.spacer {
+    margin-top: 20px;
+}
+
+.gradient-background {
+    background: linear-gradient(45deg, #ff6f00, #ffcc00);
+    border-radius: 4px;
+}
+
+.light-theme {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.dark-theme {
+    background-color: #212121;
+    color: #fff;
+}
+
+.light-theme .theme-card {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme .theme-card {
+    background-color: #424242;
+    color: #e0e0e0;
+}
+
+.dark-theme .card-content h5 {
+    color: #ffcc00; 
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+    border: #000;
+}
+
+.card-content ul li {
+    margin-bottom: 2px;
+}
+
+.card-action  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+
+}
+
+#change-theme {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.card-image {
+    /* height: 20px; */
+    width: 100%;
+    text-align: start;
+}
+/* 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+} */
